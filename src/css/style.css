@@ -22,14 +22,25 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.nav-list {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
 /*=======================HEADER=========================================*/
 .header {
   padding-top: 17px;
   padding-bottom: 80px;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo {
   text-decoration: none;
 }
+
 .logo-text {
   color: var(--colorTextTertiary);
   font-size: 30px;
